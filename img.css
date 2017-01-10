@@ -1,0 +1,255 @@
+@font-face
+{
+	font-family: Mistral;
+	src: url("fonts/mistral.ttf");
+}
+
+@font-face
+{
+	font-family: Sloppy-Hand;
+	src: url("fonts/Sloppy-Hand.ttf");
+}
+
+@font-face
+{
+	font-family: Lorem;
+	src: url("fonts/lorem.ttf");
+}
+
+@font-face
+{
+	font-family: Bunny;
+	src: url("fonts/Bunny.ttf");
+}
+#navegar{
+	margin-bottom: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.jumbotron{
+	background: rgba(181, 102, 33, 0.8);
+}
+#box-wrapper h1{
+	color: white;
+	border: 12px solid #ff66cc
+	border-radius: 8px;
+	padding: 8px;
+	font-family: Mistral;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+#box-wrapper p{
+
+	text-align: center;
+	color: beige;
+	margin-top: 0px;
+}
+
+#titulo h6{
+
+	text-align: center;
+	color: rgba(181, 102, 33, 0.8);	
+	margin-bottom: 0px;
+
+}
+#titulo h2{
+
+	text-align: center;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#img-otoño{
+
+	opacity: 1;
+	border-radius: 8px;
+	border: 3px rgba(230, 204, 255, 0.2);
+	margin-bottom: 5px;
+}
+
+ #conectate h4, #post h4{
+
+	text-align: center;
+	color: black;
+	border: 1px solid rgba(181, 102, 33, 0.5);
+	border-radius: .2px;
+	padding: 8px;
+	font-weight: bold;
+	background: white;
+}
+#input {
+	margin-top: 20px;
+}
+
+#input input{
+	border: 1px solid rgba(181, 102, 33, 0.5);
+}
+
+#input .btn.btn-default{
+	border-color: rgba(181, 102, 33, 0.5);
+}
+#right_box{
+	margin-top: 20px;
+}
+
+#right_box h6{
+	font-weight: bold;
+}
+
+#right_box_p p{
+	text-align: justify;
+	font-size: 0.9em;
+}
+#titulo p{
+
+	color: black;
+	font-family: 'Baloo Chettan', cursive;
+	font-size: 1.2em;
+	text-align: justify;
+}
+.col-md-1 .img-circle{
+	width: 96px;
+	height: 96px;
+}
+
+
+.fixed img{
+        position: fixed;
+        width: 25%;
+}
+.scrollit img{
+        float: left;
+        width: 71%
+}
+#jumbotron1 {
+    /* The image used */
+    background-image: url('imagen/2.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 	margin-bottom: 0px;
+
+}
+#parallax p{
+
+	background-color: transparent;
+	color: #f9f9ef;
+	border: 12px solid #ff66cc
+	border-radius: 8px;
+	padding: 8px;
+	font-family: Bunny;
+	font-size: 2em;
+	margin-top: 60px;
+	margin-bottom: 0px;
+	z-index: 1000;
+	text-align: 
+}
+#parrafo-parallax{
+
+	margin: auto;
+    width: 100%;
+    height: 50%;
+}
+
+#jumbotron2 {
+    /* The image used */
+    background-image: url('imagen/3.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#parallax2 p{
+
+	color: white;
+	margin-top: 100px;
+	font-family: Mistral;
+	background-color: rgba(50, 52, 76, 0.25);
+	height: 200px;
+	font-size: 2.4em;
+}
+#jumbotron3 {
+    /* The image used */
+    background-image: url('imagen/otoño.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+ 	margin-bottom: 0px;
+	   
+}
+#parallax3 p{
+
+	color: white;
+	margin-top: 100px;
+	font-family: Mistral;
+	background-color: rgba(181, 102, 33, 0.1);
+	height: 200px;
+	font-size: 2.4em;
+}
+#footeer{
+
+	background-color: beige;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
+}
+#footeer .container{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#texto{
+	margin-top: 30px;
+}
+#footeer p{
+	text-align: right;
+	background-color: blue; 
+	color: white; 
+	border: 1px solid blue;
+	width: 150px;
+	margin-top: 30px;
+}
+#col1{
+	background-color: beige;
+	text-align: center;
+	color: black; 
+	height: 100px; 
+	margin-top: 0px;
+	font-family: Bunny;
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+#tex-footeer{
+	background-color: rgba(0, 0, 0, 0.8);
+} 
+#tex-footeer .col-md-3{
+	text-align: center;
+	color: beige;
+	font-family: calibri; 
+}
+
+#tex-footeer .col-md-6{
+	border-top: 1px solid rgba(155, 155, 155, 0.5);
+	margin-top: 63px;
+}
