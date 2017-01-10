@@ -27,10 +27,9 @@
 	width: 100%;
 	z-index: 1000;
 }
-
-.jumbotron{
-	background: rgba(181, 102, 33, 0.8);
-}
+#box-wrapper{
+background: rgba(181, 102, 33, 0.8);
+}	
 #box-wrapper h1{
 	color: white;
 	border: 12px solid #ff66cc
@@ -218,9 +217,11 @@
 #footeer .container{
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 #texto{
 	margin-top: 30px;
+	margin-bottom: 0px;
 }
 #footeer p{
 	text-align: right;
@@ -242,6 +243,7 @@
 }
 #tex-footeer{
 	background-color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 0px;
 } 
 #tex-footeer .col-md-3{
 	text-align: center;
@@ -252,4 +254,19 @@
 #tex-footeer .col-md-6{
 	border-top: 1px solid rgba(155, 155, 155, 0.5);
 	margin-top: 63px;
+}
+#jumbotron-space{
+	background-color: white;
+	height: 400px; 
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#jumbotron-space2{
+	background-color: #B5D334;
+	color: #FEFFFC;
+	height: 200px; 
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
