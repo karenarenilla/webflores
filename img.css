@@ -1,25 +1,25 @@
 @font-face
 {
 	font-family: Mistral;
-	src: url("fonts/mistral.ttf");
+	src: url("fonts/mistral.TTF");
 }
 
 @font-face
 {
 	font-family: Sloppy-Hand;
-	src: url("fonts/Sloppy-Hand.ttf");
+	src: url("fonts/Sloppy-Hand.TTF");
 }
 
 @font-face
 {
 	font-family: Lorem;
-	src: url("fonts/lorem.ttf");
+	src: url("fonts/lorem.TTF");
 }
 
 @font-face
 {
 	font-family: Bunny;
-	src: url("fonts/Bunny.ttf");
+	src: url("fonts/Bunny.TTF");
 }
 #navegar{
 	margin-bottom: 0px;
@@ -263,10 +263,13 @@ background: rgba(181, 102, 33, 0.8);
 	margin-bottom: 0px;
 }
 #jumbotron-space2{
-	background-color: white;
+	background-color: #702300;
 	color: black;
-	height: 300px; 
+	height: 200px; 
 	text-align: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+.jumbotron{
+	overflow: hidden;
 }
